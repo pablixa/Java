@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SAAPA - Cadastro de Aluno</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center>
+        <form action="adicionaraluno.jsp" method="POST">
+        <h1> Cadastro de Aluno <h1/>
+            
+            Nome: <input type="text" name="pnome"> <br><br>
+            
+            CPF: <input type="text" name="pcpf"> <br><br>
+            
+            Endereço: <input type="text" name="pendereco"> <br><br>
+            
+            Telefone: <input type="text" name="ptelefone"> <br><br>
+        
+            E-mail: <input type="email" name="pemail"> <br><br>
+            
+            Dt.Nascimento: <input type="date" name="pdtnascimento"> <br><br>
+            
+            Sexo:   <select name='sexo'>
+                        <option value='pfeminino' selected>Feminino</option>
+                        <option value='pmasculino'>Masculino</option>             
+            </select> <br><br>
+            
+            <button type="submit">Salvar</button>
+            <input type="reset" value="Limpar">
+                         
+        
+    
+    
+        </form>
+    </center>
+    </body>
+</html>
